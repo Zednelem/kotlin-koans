@@ -23,9 +23,9 @@ fun todoTask0(): Nothing = TODO(
         Let's start! Make the function 'task0' return "OK".
     """,
     documentation = doc0(),
-    references = { task0(); "OK" }
+    references = { task0(); "KO" }
 )
 
 fun task0(): String {
-    return todoTask0()
+    return  "OK"
 }
